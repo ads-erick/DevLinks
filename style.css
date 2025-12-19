@@ -1,0 +1,6 @@
+body {
+  background-image: url(./assets/bg-mobile.jpg); /* coloca a imagem de fundo */
+  background-repeat: no-repeat; /*faz a imagem não se repetir */
+  background-position: top center; /* posiciona o topo da imagem no centro da página */
+  background-size: cover; /* vai cobrir toda a página */
+}
