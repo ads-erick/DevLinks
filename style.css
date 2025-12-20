@@ -1,6 +1,38 @@
+* {
+  margin: 0; /* resetando o margin padrão do navegador */
+  padding: 0; /* resetando o padding padrão do navegador */
+  box-sizing: border-box; /* define a medida do tamanho da caixa através da borda */
+}
+
 body {
   background-image: url(./assets/bg-mobile.jpg); /* coloca a imagem de fundo */
   background-repeat: no-repeat; /*faz a imagem não se repetir */
   background-position: top center; /* posiciona o topo da imagem no centro da página */
   background-size: cover; /* vai cobrir toda a página */
+}
+
+body * {
+  font-family: 'Inter', sans-serif; /* define a fonte de todo o body como "Inter" */
+  color: white; /* define a cor de todo o body como branco */
+}
+
+#container {
+  width: 360px;
+  margin: 56px auto 0px;
+}
+
+#profile {
+  text-align: center; /* define que os que estiverem dentro da div "profile", será alinhado ao centro  */
+  padding: 24px;
+}
+
+#profile img{
+  width: 112px;
+  margin: auto;
+}
+
+#profile p {
+  font-weight: 500; /* peso da fonte */
+  font-size: 16px; /* tamanho da fonte em 16px */
+  margin-top: 8px;
 }
