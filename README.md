@@ -1,5 +1,7 @@
 # DevLinks - Erick Anderson
 
+<img src="assets/DevLinks.png" alt="Capa do projeto Devlinks" width="100%">
+
 Trata-se de um agregador de links pessoal, funcionando como uma link tree para centralizar redes sociais e portfólios.
 
 ## Tecnologias
