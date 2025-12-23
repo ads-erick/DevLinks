@@ -1,19 +1,19 @@
 * {
-  margin: 0; /* resetando o margin padrão do navegador */
-  padding: 0; /* resetando o padding padrão do navegador */
-  box-sizing: border-box; /* define a medida do tamanho da caixa através da borda */
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
 }
 
 body {
-  background-image: url(./assets/bg-mobile.jpg); /* coloca a imagem de fundo */
-  background-repeat: no-repeat; /*faz a imagem não se repetir */
-  background-position: top center; /* posiciona o topo da imagem no centro da página */
-  background-size: cover; /* vai cobrir toda a página */
+  background-image: url(./assets/bg-mobile.jpg); 
+  background-repeat: no-repeat; 
+  background-position: top center; 
+  background-size: cover; 
 }
 
 body * {
-  font-family: 'Inter', sans-serif; /* define a fonte de todo o body como "Inter" */
-  color: white; /* define a cor de todo o body como branco */
+  font-family: 'Inter', sans-serif; 
+  color: white; 
 }
 
 #container {
@@ -22,7 +22,7 @@ body * {
 }
 
 #profile {
-  text-align: center; /* define que os que estiverem dentro da div "profile", será alinhado ao centro  */
+  text-align: center; 
   padding: 24px;
 }
 
@@ -32,7 +32,42 @@ body * {
 }
 
 #profile p {
-  font-weight: 500; /* peso da fonte */
-  font-size: 16px; /* tamanho da fonte em 16px */
+  font-weight: 500; 
+  font-size: 16px; 
   margin-top: 8px;
+}
+
+/* links */
+ul {
+  list-style: none; 
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+
+  padding: 16px 24px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: background 0.2s;
+}
+
+/* pseudp-selector */
+ul li a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
 }
