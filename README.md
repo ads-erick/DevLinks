@@ -2,13 +2,15 @@
 
 <img src="assets/DevLinks-picture.png" alt="Capa do projeto Devlinks" width="100%">
 
+##  [Acesse o projeto clicando aqui](https://ads-erick.github.io/DevLinks/)
+
 Trata-se de um agregador de links pessoal, funcionando como uma link tree para centralizar redes sociais e portfólios.
 
 ## Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - **HTML**: Estruturação de conteúdo e semântica.
-- **CSS**: Estilização, variáveis , Flexbox e efeitos.
+- **CSS**: Estilização, variáveis, Flexbox e efeitos.
 - **JavaScript**: Lógica de manipulação do DOM para alternância de temas.
 - **Git/GitHub**: Versionamento de código.
 
